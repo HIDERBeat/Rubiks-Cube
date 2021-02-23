@@ -1,0 +1,73 @@
+body{
+	background-color: #085c77;
+	font-size: 20px;
+	font-family: 'Ubuntu', sans-serif;
+}
+
+h1{
+	color: #ffb31a;
+	text-decoration: underline;
+}
+
+nav{
+	background-color: #ffb31a;
+}
+
+nav ul li.btn{
+	list-style-type: none;
+	display: inline-block;
+
+}
+
+nav ul li.btn a{
+	color: #085c77;
+	text-decoration: none;
+	background-color: #ffb31a;
+	padding-right: 30px;
+	padding-left: 30px;
+}
+
+nav  ul li.btn:hover a{
+	color: #064256;
+	transition: 0.3s all;
+	font-size: 35px;
+}
+
+footer{
+	background-color: #ffb31a;
+	color: #085c77;
+	padding: 20px;
+	text-align: center;
+	font-style: italic;
+	font-weight: bold;
+}
+
+h3{
+	color: white;
+	text-indent: 25px;
+	font-style: italic;
+}
+
+header#up {
+	border: solid;
+	border-color: #ffb31a;
+	border-style: dashed;
+	border-width: 5px;
+}
+
+div#content{
+	color: white;
+}
+
+div#content div.compet div{
+	display: inline-block;
+	width: 48%;
+}
+
+div#content div.compet div.txt{
+	vertical-align: top;
+}
+
+a{
+	color: #ffb31a;
+}
